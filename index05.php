@@ -9,19 +9,19 @@
 <body>
 	<?php
 		$cities3 = array(
-			'Tokijas' => array('13.5', '1868', 'Japonija'),
-			'Vasingtonas' => array('0.6', '1790', 'JAV'),
-			'Maskva' => array('11.5', '1147', 'Rusija'));
-		$cities3['Londonas'] = ['8.6', '43', 'Anglija'];
+			'Tokijas' => array(13.5, 1868, 'Japonija'),
+			'Vasingtonas' => array(0.6, 1790, 'JAV'),
+			'Maskva' => array(11.5, 1147, 'Rusija'));
+		$cities3['Londonas'] = [8.6, 43, 'Anglija'];
 //		print_r($cities3);
-	
+
 
 	?>
 	<ul>
-		<li>Gyventoju skaicius: <?php echo $cities3['Londonas'][0]?> mln.</li>
-		<li>Ikurtas: <?php echo $cities3['Londonas'][1]?> m.</li>
-		<li>Salis: <?php echo $cities3['Londonas'][2]?></li>
+		<li>Gyventoju skaicius: <?php echo $cities3['Londonas'][0];?> mln.</li>
+		<li>Ikurtas: <?php echo $cities3['Londonas'][1];?> m.</li>
+		<li>Salis: <?php echo $cities3['Londonas'][2];?></li>
 	</ul>
-			
+
 </body>
 </html>
