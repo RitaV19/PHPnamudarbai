@@ -13,9 +13,9 @@
 		$populiacija = 574221;
 	?>
 
-	<p><?php echo $miestas. ' - Lietuvos sostinė'?>	</p>
+	<p><?php echo $miestas. ' - Lietuvos sostinė';?>	</p>
 
-	<p><?php echo "$miestas ir $salis sparčiai auga"?></p>
+	<p><?php echo "$miestas ir $salis sparčiai auga";?></p>
 
 </body>
 </html>
